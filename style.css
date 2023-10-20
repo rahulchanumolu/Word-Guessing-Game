@@ -6,6 +6,8 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+
 body{
   display: flex;
   padding: 0 10px;
@@ -40,7 +42,7 @@ body{
   margin: 4px;
   font-size: 24px;
   font-weight: 500;
-  color: #1ba98c;
+  color: #5ba91b;
   text-align: center;
   border-radius: 5px;
   background: none;
@@ -80,6 +82,20 @@ body{
   background: #18a589;
 }
 
+
+.word-picture {
+  width: 200px; 
+  height: auto; 
+  display: block;
+  margin: 20px auto 10px; 
+  /* Adjust margins to lower the picture */
+}
+.card-img-top {
+  width: 100%;
+  height: 10vw;
+  object-fit: contain;
+}
+  
 @media screen and (max-width: 460px) {
   .wrapper {
     width: 100%;
