@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Guess a Word Game JavaScript </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+        <div id="selection-area">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="card mt-3" style="width: 18rem;">
+                  <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\movie.jpg" alt="Card image cap"></div>
+                      <div class="card-body">
+                        <h5 class="card-title">Movies</h5>
+                        <p class="card-text">You will be asked 10 questions on Movies.</p>
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="movie.html?index=1" class="card-link">Card link</a>
+
+                        
+                      </div>
+                    
+                  </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card mt-3" style="width: 18rem;">
+                  <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\tvshow.jpg" alt="Card image cap"></div>
+                      <div class="card-body">
+                        <h5 class="card-title">TV-Shows</h5>
+                        <p class="card-text">You will be asked 10 questions on TV shows.</p>
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="movie.html?index=2" class="card-link">Card link</a>
+                      
+                      </div>
+                    
+                  </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="card mt-3" style="width: 18rem;">
+                <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\tvshow.jpg" alt="Card image cap"></div>
+                    <div class="card-body">
+                      <h5 class="card-title">F1</h5>
+                      <p class="card-text">You will be asked 10 questions on TV shows.</p>
+                    </div>
+                    
+                    <div class="card-body">
+                      <a href="movie.html?index=2" class="card-link">Card link</a>
+                    
+                    </div>
+                  
+                </div>
+          </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card mt-3" style="width: 18rem;">
+                    <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\sports.jpg" alt="Card image cap"></div>
+                      <div class="card-body">
+                        <h5 class="card-title">Sports</h5>
+                        <p class="card-text">You will be asked 10 questions on sports.</p>
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="movie.html?index=3" class="card-link">Card link</a>
+                        
+                      </div>
+                    
+                  </div>
+            </div>
+            </div>
+            </div>
+            
+
+            <!-- <div class="wrapper" id="game-area" style="display:none;">
+                <h1>Guess the Word</h1>
+                <img src="" alt="Word Picture" class="word-picture">
+                <div class="content">
+                  <input type="text" class="typing-input" maxlength="1">
+                  <div class="inputs"></div>
+                  <div class="details">
+                    
+                    <p class="hint">Hint: <span></span></p>
+                    <p class="guess-left">Remaining guesses: <span></span></p>
+                    <p class="wrong-letter">Wrong letters: <span></span></p>
+                  </div>
+                  
+                  
+                  <button class="reset-btn">Reset Game</button>
+                </div>
+              </div>
+        </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+    <script>
+   
+            // let g_area = document.getElementById("game-area");
+            // let s_area = document.getElementById("selection-area");
+            
+            // let clik = document.getElementsByClassName("card-link");
+            // let url = `movie.html?index=${index}`;
+            // debugger;
+//             for (let i = 0; i < clik.length; i++) {
+//   clik[i].addEventListener("click", function(e) {
+//     window.location.href = url;
+//   });
+// }
+const cardLinks = document.querySelectorAll('.card-link');
+
+for (let i = 0; i < cardLinks.length; i++) {
+  cardLinks[i].addEventListener('click', function(event) {
+   // this.ParentNode;
+   // debugger;
+    const href = event.target.getAttribute('href');
+    debugger;
+  });
+}
+
+
+
+
+    </script>
+
+  </body>
+</html>
