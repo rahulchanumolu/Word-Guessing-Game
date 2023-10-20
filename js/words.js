@@ -1,198 +1,303 @@
-let wordList = [
+let wordList1 = [
     {
         word: "python",
         hint: "programming language"
     },
     {
-        word: "guitar",
-        hint: "a musical instrument"
+        word: "c",
+        hint: "Stacks and heaps are part of its memory management"
+        
     },
     {
-        word: "aim",
-        hint: "a purpose or intention"
+        word: "typescript",
+        hint: "JavaScript's main competitor in web scripting"
+        
     },
     {
-        word: "venus",
-        hint: "planet of our solar system"
+        word: "r",
+        hint: "Popular language for data analysis and statistics"
+        
     },
     {
-        word: "gold",
-        hint: "a yellow precious metal"
-    },
-    {
-        word: "ebay",
-        hint: "online shopping site"
-    },
-    {
-        word: "golang",
-        hint: "programming language"
-    },
-    {
-        word: "coding",
-        hint: "related to programming"
-    },
-    {
-        word: "matrix",
-        hint: "science fiction movie"
-    },
-    {
-        word: "bugs",
-        hint: "related to programming"
-    },
-    {
-        word: "avatar",
-        hint: "epic science fiction film"
-    },
-    {
-        word: "gif",
-        hint: "a file format for image"
-    },
-    {
-        word: "mental",
-        hint: "related to the mind"
-    },
-    {
-        word: "map",
-        hint: "diagram represent of an area"
-    },
-    {
-        word: "island",
-        hint: "land surrounded by water"
-    },
-    {
-        word: "hockey",
-        hint: "a famous outdoor game"
-    },
-    {
-        word: "chess",
-        hint: "related to a indoor game"
-    },
-    {
-        word: "viber",
-        hint: "a social media app"
-    },
-    {
-        word: "github",
-        hint: "code hosting platform"
-    },
-    {
-        word: "png",
-        hint: "a image file format"
-    },
-    {
-        word: "silver",
-        hint: "precious greyish-white metal"
-    },
-    {
-        word: "mobile",
-        hint: "an electronic device"
-    },
-    {
-        word: "gpu",
-        hint: "computer component"
+        word: "swift",
+        hint: "Programming language for creating ios applications"
+        
     },
     {
         word: "java",
-        hint: "programming language"
+        hint: "Developed by Sun Microsystems, now owned by Oracle"
+        
     },
     {
-        word: "google",
-        hint: "famous search engine"
+        word: "modular",
+        hint: "A concept that refers to breaking a complex problems into smaller, more manageable parts"
+        
     },
     {
-        word: "venice",
-        hint: "famous city of waters"
+        word: "ruby",
+        hint: "Scripting language with a focus on simplicity"
+        
+    },
+    {
+        word: "haskell",
+        hint: "Functional language known for its strong typing"
+        
+    },
+    {
+        word: "nodejs",
+        hint: "Used extensively for web development, especially on the server-side"
+        
+    },]
+    
+let wordList2=[ 
+    {
+        word: "windows",
+        hint: "Popular operating system by Microsoft"
+    },
+    {
+        word: "photoshop",
+        hint: "Adobe's photo editing software"
+        
+    },
+    {
+        word: "zoom",
+        hint: "Video conferencing software"
+        
+    },
+    {
+        word: "chrome",
+        hint: "Web browser developed by Google"
+        
+    },
+    {
+        word: "office",
+        hint: "Microsoft's suite of office productivity software"
+        
+    },
+    {
+        word: "libreoffice",
+        hint: "Open-source office suite with a penguin mascot"
+        
+    },
+    {
+        word: "whatsapp",
+        hint: "Messaging app with a green logo, now owned by Facebook"
+        
+    },
+    {
+        word: "icloud",
+        hint: "Cloud storage service by Apple"
+        
+    },
+    {
+        word: "git",
+        hint: "Version control system for code collaboration"
+        
     },
     {
         word: "excel",
-        hint: "microsoft product for windows"
+        hint: "spreadsheet application that is part of the Microsoft Office suite"
+        
+    },]
+
+let wordList3=[
+    {
+        word: "iphone",
+        hint: "Apple's flagship smartphone"
     },
     {
-        word: "mysql",
-        hint: "a relational database system"
+        word: "playstation",
+        hint: "Gaming console by Sony, known for its exclusives"
+        
     },
     {
-        word: "nepal",
-        hint: "developing country name"
+        word: "nvidia",
+        hint: "Leading manufacturer of graphics processing units"
+        
     },
     {
-        word: "flute",
-        hint: "a musical instrument"
+        word: "alienware",
+        hint: "High-end gaming PC manufacturer"
+        
     },
     {
-        word: "crypto",
-        hint: "related to cryptocurrency"
+        word: "core",
+        hint: "Popular line of processors by Intel"
+        
     },
     {
-        word: "tesla",
-        hint: "unit of magnetic flux density"
+        word: "seagate",
+        hint: "Leading manufacturer of computer hard drives"
+        
     },
     {
-        word: "mars",
-        hint: "planet of our solar system"
+        word: "samsung",
+        hint: "South Korean electronics giant, known for phones and TVs"
+        
     },
     {
-        word: "proxy",
-        hint: "related to server application"
+        word: "razer",
+        hint: "Gaming hardware company known for its mice and keyboards"
+        
     },
     {
-        word: "email",
-        hint: "related to exchanging message"
+        word: "hp",
+        hint: "American multinational corporation known for printers"
+        
     },
     {
-        word: "html",
-        hint: "markup language for the web"
+        word: "lenovo",
+        hint: "Chinese multinational company, the world's largest PC vendor"
+        
+    },]
+
+    let wordList4=[{
+        word: "twitter",
+        hint: "A platform known for its 140-character limit"
     },
     {
-        word: "air",
-        hint: "related to a gas"
+        word: "facebook",
+        hint: "Owned by Mark Zuckerberg, it's the largest social network"
+        
     },
     {
-        word: "idea",
-        hint: "a thought or suggestion"
+        word: "tiktok",
+        hint: "Short-form video app that gained popularity in 2020"
+        
     },
     {
-        word: "server",
-        hint: "related to computer or system"
+        word: "linkedin",
+        hint: "Professional networking platform for job seekers"
+        
     },
     {
-        word: "svg",
-        hint: "a vector image format"
+        word: "pinterest",
+        hint: "Image-centric platform with pins and boards"
+        
     },
     {
-        word: "jpeg",
-        hint: "a image file format"
+        word: "snapchat",
+        hint: "Popular messaging app known for its disappearing messages"
+        
     },
     {
-        word: "search",
-        hint: "act to find something"
+        word: "youtube",
+        hint: "Video-sharing platform where creators can earn money"
+        
     },
     {
-        word: "key",
-        hint: "small piece of metal"
+        word: "oculus",
+        hint: "Owned by Meta Platforms, it's a virtual reality social platform"
+        
     },
     {
-        word: "egypt",
-        hint: "a country name"
+        word: "instagram",
+        hint: "Photo and video sharing app with Stories feature"
+        
     },
     {
-        word: "joker",
-        hint: "psychological thriller film"
+        word: "tumblr",
+        hint: "Microblogging platform focused on multimedia content"
+        
+    },]
+
+let wordList5=[
+    {
+        word: "tony",
+        hint: "Billionaire genius with a suit"
     },
     {
-        word: "dubai",
-        hint: "developed country name"
+        word: "thor",
+        hint: "Mighty god of thunder"
+        
     },
     {
-        word: "photo",
-        hint: "representation of person or scene"
+        word: "Red and blue wall-crawler",
+        hint: "spidey"
+        
     },
     {
-        word: "nile",
-        hint: "largest river in the world"
+        word: "Wakandan superhero and king",
+        hint: "tchalla"
+        
     },
     {
-        word: "rain",
-        hint: "related to a water"
+        word: "Green, gamma-powered giant",
+        hint: "hulk"
+        
     },
-]
+    {
+        word: "Sorcerer Supreme",
+        hint: "strange"
+        
+    },
+    {
+        word: "Mutant with optic blasts",
+        hint: "cyclo"
+        
+    },
+    {
+        word: "Norse trickster and mischief-maker",
+        hint: "loki"
+        
+    },
+    {
+        word: "Feline superheroine with claws",
+        hint: "logan"
+        
+    },
+    {
+        word: "Super-soldier from World War II",
+        hint: "cap"
+        
+    },]
+
+let wordList6=[{
+    word: "tenet",
+    hint: "Nolan Movie"
+    },
+{
+    word: "batman",
+    hint: "super hero"
+    
+},]
+
+let wordList7=[{
+    word: "tenet",
+    hint: "Nolan Movie"
+    },
+{
+    word: "batman",
+    hint: "super hero"
+    
+},]
+
+let wordList8=[{
+    word: "tenet",
+    hint: "Nolan Movie"
+    },
+{
+    word: "batman",
+    hint: "super hero"
+    
+},]
+
+let wordList9=[{
+    word: "tenet",
+    hint: "Nolan Movie"
+    },
+{
+    word: "batman",
+    hint: "super hero"
+    
+},]
+
+let wordList10=[{
+    word: "tenet",
+    hint: "Nolan Movie"
+    },
+{
+    word: "batman",
+    hint: "super hero"
+    
+},]
