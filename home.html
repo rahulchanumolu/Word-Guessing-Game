@@ -5,40 +5,57 @@
     <meta charset="utf-8">
     <title>Guess a Word Game JavaScript </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/introjs.css" integrity="sha512-4OzqLjfh1aJa7M33b5+h0CSx0Q3i9Qaxlrr1T/Z+Vz+9zs5A7GM3T3MFKXoreghi3iDOSbkPMXiMBhFO7UBW/g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  
-  <body>
+  <body class="background-image">
+
     <div class="container">
-      <div id="selection-area">
-      <div class="row">
-          <div   class="col-md-4 col-sm-6">
-              <div class="card mt-3" style="width: 18rem;" >
-                <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\programing.jpg" alt="Card image cap"></div>
-                    <div class="card-body">
-                      <h5 class="card-title">Programming World</h5>
-                      <p class="card-text">Master of Code: Can You Name 10 Languages?</p>
-                    </div>
-                    
-                    <div class="card-body" data-title="To start the game click here" >
-                      <a href="movie.html?index=1" class="card-link">Start Game</a>
-
+        <div id="selection-area">
+        <div class="row">
+            <div   class="col-md-4 col-sm-6">
+                <div class="card mt-3" style="width: 18rem;" >
+                  <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\programing.jpg" alt="Card image cap"></div>
+                      <div class="card-body">
+                        <h5 class="card-title">Programming World</h5>
+                        <p class="card-text">Master of Code: Can You Name 10 Languages?</p>
+                      </div>
                       
-                    </div>
-                  
-                </div>
-          </div>
-          <div class="col-md-4 col-sm-6" >
+                      <div class="card-body" data-title="To start the game click here" >
+                        <a href="movie.html?index=1" class="card-link">Start Game</a>
+
+                        
+                      </div>
+                    
+                  </div>
+            </div>
+            <div class="col-md-4 col-sm-6" >
+                <div class="card mt-3" style="width: 18rem;">
+                  <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\software.jpg" alt="Card image cap"></div>
+                      <div class="card-body">
+                        <h5 class="card-title">Software World</h5>
+                        <p class="card-text">Think you're a software guru? Prove it with 10 software names!</p>
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="movie.html?index=2" class="card-link">Start Game</a>
+                      
+                      </div>
+                    
+                  </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
               <div class="card mt-3" style="width: 18rem;">
-                <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\software.jpg" alt="Card image cap"></div>
+                <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\hardware.jpg" alt="Card image cap"></div>
                     <div class="card-body">
-                      <h5 class="card-title">Software World</h5>
-                      <p class="card-text">Think you're a software guru? Prove it with 10 software names!</p>
+                      <h5 class="card-title">Hardware Speed</h5>
+                      <p class="card-text">Hardware Whiz: Let's test your processing time!</p>
                     </div>
                     
                     <div class="card-body">
-                      <a href="movie.html?index=2" class="card-link">Start Game</a>
+                      <a href="movie.html?index=3" class="card-link">Start Game</a>
                     
                     </div>
                   
@@ -46,14 +63,14 @@
           </div>
           <div class="col-md-4 col-sm-6">
             <div class="card mt-3" style="width: 18rem;">
-              <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\hardware.jpg" alt="Card image cap"></div>
+              <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\socialmedia.jpg" alt="Card image cap"></div>
                   <div class="card-body">
-                    <h5 class="card-title">Hardware Speed</h5>
-                    <p class="card-text">Hardware Whiz: Let's test your processing time!</p>
+                    <h5 class="card-title">Social Media</h5>
+                    <p class="card-text">Social Savvy: Can socre more than your snap score?</p>
                   </div>
                   
                   <div class="card-body">
-                    <a href="movie.html?index=3" class="card-link">Start Game</a>
+                    <a href="movie.html?index=4" class="card-link">Start Game</a>
                   
                   </div>
                 
@@ -61,44 +78,44 @@
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="card mt-3" style="width: 18rem;">
-            <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\socialmedia.jpg" alt="Card image cap"></div>
+            <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\marvel.jpg" alt="Card image cap"></div>
                 <div class="card-body">
-                  <h5 class="card-title">Social Media</h5>
-                  <p class="card-text">Social Savvy: Can socre more than your snap score?</p>
+                  <h5 class="card-title">MCU</h5>
+                  <p class="card-text">Marvel Universe Mastery: Identify the Heroes and Villains</p>
                 </div>
                 
                 <div class="card-body">
-                  <a href="movie.html?index=4" class="card-link">Start Game</a>
+                  <a href="movie.html?index=5" class="card-link">Start Game</a>
                 
                 </div>
               
             </div>
       </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="card mt-3" style="width: 18rem;">
-          <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\marvel.jpg" alt="Card image cap"></div>
-              <div class="card-body">
-                <h5 class="card-title">MCU</h5>
-                <p class="card-text">Marvel Universe Mastery: Identify the Heroes and Villains</p>
-              </div>
-              
-              <div class="card-body">
-                <a href="movie.html?index=5" class="card-link">Start Game</a>
-              
-              </div>
-            
+            <div class="col-md-4 col-sm-6">
+              <div class="card mt-3" style="width: 18rem;">
+                <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\dc.jpg" alt="Card image cap"></div>
+                    <div class="card-body">
+                      <h5 class="card-title">DC</h5>
+                      <p class="card-text">DC Universe Expert: Know Your Superheroes and Supervillains!</p>
+                    </div>
+                    
+                    <div class="card-body">
+                      <a href="movie.html?index=6" class="card-link">Start Game</a>
+                    
+                    </div>
+                  
+                </div>
           </div>
-    </div>
           <div class="col-md-4 col-sm-6">
             <div class="card mt-3" style="width: 18rem;">
-              <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\dc.jpg" alt="Card image cap"></div>
+              <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\anime.jpg" alt="Card image cap"></div>
                   <div class="card-body">
-                    <h5 class="card-title">DC</h5>
-                    <p class="card-text">DC Universe Expert: Know Your Superheroes and Supervillains!</p>
+                    <h5 class="card-title">Anime</h5>
+                    <p class="card-text">Anime Aficionado: Guess the Beloved Series!</p>
                   </div>
                   
                   <div class="card-body">
-                    <a href="movie.html?index=6" class="card-link">Start Game</a>
+                    <a href="movie.html?index=7" class="card-link">Start Game</a>
                   
                   </div>
                 
@@ -106,14 +123,14 @@
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="card mt-3" style="width: 18rem;">
-            <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\anime.jpg" alt="Card image cap"></div>
+            <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\narutoshow.jpg" alt="Card image cap"></div>
                 <div class="card-body">
-                  <h5 class="card-title">Anime</h5>
-                  <p class="card-text">Anime Aficionado: Guess the Beloved Series!</p>
+                  <h5 class="card-title">Naruto</h5>
+                  <p class="card-text">Hidden Leaf Challenge: Test Your Naruto Knowledge!</p>
                 </div>
                 
                 <div class="card-body">
-                  <a href="movie.html?index=7" class="card-link">Start Game</a>
+                  <a href="movie.html?index=8" class="card-link">Start Game</a>
                 
                 </div>
               
@@ -121,103 +138,135 @@
       </div>
       <div class="col-md-4 col-sm-6">
         <div class="card mt-3" style="width: 18rem;">
-          <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\narutoshow.jpg" alt="Card image cap"></div>
+          <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\onepiece.jpg" alt="Card image cap"></div>
               <div class="card-body">
-                <h5 class="card-title">Naruto</h5>
-                <p class="card-text">Hidden Leaf Challenge: Test Your Naruto Knowledge!</p>
+                <h5 class="card-title">One Piece</h5>
+                <p class="card-text">Pirate's Bounty: Identify the One Piece World!</p>
               </div>
               
               <div class="card-body">
-                <a href="movie.html?index=8" class="card-link">Start Game</a>
+                <a href="movie.html?index=9" class="card-link">Start Game</a>
               
               </div>
             
           </div>
     </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="card mt-3" style="width: 18rem;">
-        <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\onepiece.jpg" alt="Card image cap"></div>
-            <div class="card-body">
-              <h5 class="card-title">One Piece</h5>
-              <p class="card-text">Pirate's Bounty: Identify the One Piece World!</p>
-            </div>
-            
-            <div class="card-body">
-              <a href="movie.html?index=9" class="card-link">Start Game</a>
-            
-            </div>
-          
-        </div>
-  </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="card mt-3" style="width: 18rem;">
-              <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\nba.jpg" alt="Card image cap"></div>
-                  <div class="card-body">
-                    <h5 class="card-title">NBA</h5>
-                    <p class="card-text">NBA All-Star: Name the Basketball Legends! be the next Jordan.</p>
-                  </div>
-                  
-                  <div class="card-body">
-                    <a href="movie.html?index=10" class="card-link">Start Game</a>
-                  
-                  </div>
-                
-              </div>
-        </div>
-          <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6">
               <div class="card mt-3" style="width: 18rem;">
-                  <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\food.jpg" alt="Card image cap"></div>
+                <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\nba.jpg" alt="Card image cap"></div>
                     <div class="card-body">
-                      <h5 class="card-title">Food</h5>
-                      <p class="card-text">Foodie Fun: Guess the Delicacies from Around the Globe!</p>
+                      <h5 class="card-title">NBA</h5>
+                      <p class="card-text">NBA All-Star: Name the Basketball Legends! be the next Jordan.</p>
                     </div>
                     
                     <div class="card-body">
-                      <a href="movie.html?index=11" class="card-link">Start Game</a>
+                      <a href="movie.html?index=10" class="card-link">Start Game</a>
+                    
+                    </div>
+                  
+                </div>
+          </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card mt-3" style="width: 18rem;">
+                    <div class="embed-responsive embed-responsive-16by9"><img class="card-img-top" src=".\pictures\food.jpg" alt="Card image cap"></div>
+                      <div class="card-body">
+                        <h5 class="card-title">Food</h5>
+                        <p class="card-text">Foodie Fun: Guess the Delicacies from Around the Globe!</p>
+                      </div>
                       
-                    </div>
-                  
-                </div>
-        </div>
-          </div>
-          </div>
-          
-
-            <!-- <div class="wrapper" id="game-area" style="display:none;">
-                <h1>Guess the Word</h1>
-                <img src="" alt="Word Picture" class="word-picture">
-                <div class="content">
-                  <input type="text" class="typing-input" maxlength="1">
-                  <div class="inputs"></div>
-                  <div class="details">
+                      <div class="card-body">
+                        <a href="movie.html?index=11" class="card-link">Start Game</a>
+                        
+                      </div>
                     
-                    <p class="hint">Hint: <span></span></p>
-                    <p class="guess-left">Remaining guesses: <span></span></p>
-                    <p class="wrong-letter">Wrong letters: <span></span></p>
                   </div>
-                  
-                  
-                  <button class="reset-btn">Reset Game</button>
-                </div>
-              </div>
-        </div> -->
+          </div>
+            </div>
+            </div>
+            
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/intro.min.js"></script>
+    <script>
+      // Check if a specific cookie exists
+      function checkCookie(cookieName) {
+          var cookies = document.cookie.split(';');
+          for (var i = 0; i < cookies.length; i++) {
+              var cookie = cookies[i].trim();
+              if (cookie.indexOf(cookieName + '=') === 0) {
+                  return true; // Cookie exists
+              }
+          }
+          return false; // Cookie doesn't exist
+      }
+      
+      // Function to set a cookie
+      function setCookie(cookieName, cookieValue, expirationDays) {
+          var d = new Date();
+          d.setTime(d.getTime() + (expirationDays * 24 * 60 * 60 * 1000));
+          var expires = 'expires=' + d.toUTCString();
+          document.cookie = cookieName + '=' + cookieValue + ';' + expires + ';path=/';
+      }
+      
+      // Check if the script should run
+      if (!checkCookie('scriptHasRun')) {
+          // Run the script
+  introJs().setOptions({
+  steps: [{
+    title: 'Welcome',
+    intro: 'Hello Guys, Welcome to our Game.'
+    
+  },
+  {
+    title: "Instructions",
+    intro: "Before we start the Game let me show the topics."
+  },
+  {
+    element: document.querySelectorAll('.col-md-4.col-sm-6')[0],
+    intro: 'We have topics such as Programming World'
+  },
+  {
+    element: document.querySelectorAll('.col-md-4.col-sm-6')[5],
+    intro: 'Also, your favorite Super Hero Universe',
+    position: 'left'
+  },
+  {
+    element: document.querySelectorAll('.col-md-4.col-sm-6')[8],
+    intro: 'And Anime and many more.',
+    position: 'left'
+  },
+  {
+    element: document.querySelectorAll('.card-link')[0],
+    intro: 'Click Here to begin the Game.'
+  },
+  {
+    title: "All the best.",
+    intro: "Get ready, To Test your Knowledge."
+  },
+  {
+    intro: '<img src="pictures/goku-ssj.gif" alt="Your GIF">'
+  }
+    
+  
+  
+  
+  ]}).start();
+  
 
 
+          
+          // Set a cookie to mark that the script has run
+          setCookie('scriptHasRun', 'true', 0.1) // The '365' means the cookie will expire in 365 days
+      }
+      </script>
+      
+    <!-- <script>
+    introJs().start();
+    </script> -->
+    
     <script>
    
-            // let g_area = document.getElementById("game-area");
-            // let s_area = document.getElementById("selection-area");
-            
-            // let clik = document.getElementsByClassName("card-link");
-            // let url = `movie.html?index=${index}`;
-            // debugger;
-//             for (let i = 0; i < clik.length; i++) {
-//   clik[i].addEventListener("click", function(e) {
-//     window.location.href = url;
-//   });
-// }
 const cardLinks = document.querySelectorAll('.card-link');
 
 for (let i = 0; i < cardLinks.length; i++) {
@@ -233,6 +282,14 @@ for (let i = 0; i < cardLinks.length; i++) {
 
 
     </script>
+    
+    <footer>
+      <small>
+      <p>Project Contributors: Raghavendra Niteesh Ganugapati, Rahul Chanumolu, Vamsi Krishna Pasam</p>
+      <p>This project is an extension of: <a href="https://www.codingnepalweb.com/word-guessing-game-html-css-javascript/" target="_blank">Coding Nepal Web Word Guessing Game</a>. We improved and modified the code to display images and developed the game to fit our project needs and requirements. We did this project as part of our coursework for Foundations of Software Engineering under the guidance of Professor Paige Rodeghero.</p>
+    </small>   
+    </footer>
+  
 
   </body>
 </html>
