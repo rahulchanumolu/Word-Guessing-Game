@@ -75,7 +75,7 @@ const wordToPicture = {
     dickgrayson: "dickgrayson.jpg",
 
     //Anime
-    naruto: "naruto.jpg",
+    
     luffy: "luffy.jpg",
     light: "light.jpg",
     edward: "edward.jpg",
