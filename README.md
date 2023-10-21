@@ -13,7 +13,6 @@ Setup and Deployment Instructions:
 * Deployment:
     * This game can be deployed using any static hosting platform like GitHub Pages, Netlify, or Vercel.
     * Ensure all file paths are relative if deploying on subdirectories.
-
 Credits:
 * Project Contributors:
     * Raghavendra Niteesh Ganugapati
