@@ -4,6 +4,7 @@ guessLeft = document.querySelector(".guess-left span"),
 wrongLetter = document.querySelector(".wrong-letter span"),
 resetBtn = document.querySelector(".reset-btn"),
 typingInput = document.querySelector(".typing-input");
+
 const wordToPicture = {
     python: "python.png",
     guitar: "guitar.jpg",

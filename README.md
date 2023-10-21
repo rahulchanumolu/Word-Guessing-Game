@@ -13,11 +13,14 @@ Setup and Deployment Instructions:
 * Deployment:
     * This game can be deployed using any static hosting platform like GitHub Pages, Netlify, or Vercel.
     * Ensure all file paths are relative if deploying on subdirectories.
+    
 Credits:
 * Project Contributors:
     * Raghavendra Niteesh Ganugapati
     * Rahul Chanumolu
     * Vamsi Krishna Pasam
+
 * Acknowledgments:
     * This project is an extension of the Coding Nepal Web Word Guessing Game. The team improved and modified the original code to display images and tailored the game to meet specific project requirements.
     * This project was undertaken as part of the coursework for "Foundations of Software Engineering" under the guidance of Professor Paige Rodeghero.
+
