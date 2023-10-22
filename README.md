@@ -2,6 +2,7 @@
 Word Guessing Game
 Game Objective and Rules:
 The objective of the Word Guessing Game is to guess the correct word within a given number of tries. Players are provided with a set of blank spaces representing the letters of the word. With each incorrect guess, the number of tries decreases. Hints are provided to make guessing easier. The game concludes when the player successfully guesses the word or runs out of tries.
+
 Technology Stack Used:
 * Frontend: HTML, CSS, and JavaScript
 * Libraries: Bootstrap, introJs
@@ -14,6 +15,7 @@ Setup and Deployment Instructions:
     * This game can be deployed using any static hosting platform like GitHub Pages, Netlify, or Vercel.
     * Ensure all file paths are relative if deploying on subdirectories.
     
+
 Credits:
 * Project Contributors:
     * Raghavendra Niteesh Ganugapati
