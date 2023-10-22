@@ -78,7 +78,7 @@ const wordToPicture = {
     //Anime
     
 
-    naruto: "naruto.jpg",
+    
 
     luffy: "luffy.jpg",
     light: "light.jpg",
