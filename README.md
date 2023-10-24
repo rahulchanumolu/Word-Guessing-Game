@@ -4,7 +4,7 @@ Game Objective and Rules:
 The objective of the Word Guessing Game is to guess the correct word within a given number of tries. Players are provided with a set of blank spaces representing the letters of the word. With each incorrect guess, the number of tries decreases. Hints are provided to make guessing easier. The game concludes when the player successfully guesses the word or runs out of tries.
 
 
-# Technology Stack Used:
+# Technology Stack Used
 * Frontend: HTML, CSS, and JavaScript
 * Libraries: Bootstrap, introJs
 Setup and Deployment Instructions:
@@ -80,14 +80,14 @@ In conclusion, our journey was characterized by continuous learning, teamwork, a
 solving. We not only created a functional web-based game but also gained valuable skills and 
 insights that will undoubtedly benefit us in future projects.    
 
-# Credits:
+# Credits
 * Project Contributors:
     * Raghavendra Niteesh Ganugapati
     * Rahul Chanumolu
     * Vamsi Krishna Pasam
 
 
-# Acknowledgments:
+# Acknowledgments
    * This project is an extension of the Coding Nepal Web Word Guessing Game. The team improved and modified the original code to display images and tailored the game to meet specific project requirements.
    * This project was undertaken as part of the coursework for "Foundations of Software Engineering" under the guidance of Professor Paige Rodeghero.
 
