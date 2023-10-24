@@ -7,6 +7,7 @@ The objective of the Word Guessing Game is to guess the correct word within a gi
 # Technology Stack Used
 * Frontend: HTML, CSS, and JavaScript
 * Libraries: Bootstrap, introJs
+  
 Setup and Deployment Instructions:
 * Clone the Repository: git clone https://github.com/rahulchanumolu/Word-Guessing-Game.git
 * Navigate to the Project Directory: cd Word-Guessing-Game 
