@@ -52,7 +52,8 @@ Setup and Deployment Instructions:
 # Reflections 
 **What Worked?** We successfully identified and resolved the UI issues in the initial template. We 
 replaced intrusive alert messages with user-friendly notifications and ensured that the game 
-provided a score even if the user answered incorrectly. 
+provided a score even if the user answered incorrectly.
+
 **What Didn't Work?** Our ambitious plans to incorporate confetti.js animations and potentially 
 switch to advanced frameworks like ReactJS or Angular were hindered by time constraints and 
 our learning curve. 
