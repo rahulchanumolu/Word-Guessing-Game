@@ -15,6 +15,8 @@ Setup and Deployment Instructions:
 * Deployment:
     * This game can be deployed using any static hosting platform like GitHub Pages, Netlify, or Vercel.
     * Ensure all file paths are relative if deploying on subdirectories.
+* Link to play the Game: https://rahulchanumolu.github.io/Word-Guessing-Game/home.html
+
     
 
 Credits:
