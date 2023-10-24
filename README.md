@@ -23,7 +23,8 @@ Setup and Deployment Instructions:
    Creating a web-based game is a complex task that involves a variety of skills, from programming 
    languages to teamwork. Our team embarked on a five-week journey to develop a word-guessing 
    game. Along the way, we faced numerous challenges, overcame obstacles, and learned valuable 
-   lessons. 
+   lessons.
+   
 * **Week 1: Foundations** 
    During the first week, we focused on building a solid foundation. Recognizing our limited 
    experience in website development, we dove into the basics of JavaScript, HTML, and CSS. This 
