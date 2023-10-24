@@ -25,7 +25,7 @@ Setup and Deployment Instructions:
    game. Along the way, we faced numerous challenges, overcame obstacles, and learned valuable 
    lessons.
    
-* **_Week 1 Foundations:_** 
+* **Week 1 Foundations:** 
    During the first week, we focused on building a solid foundation. Recognizing our limited 
    experience in website development, we dove into the basics of JavaScript, HTML, and CSS. This 
    week was crucial in ensuring that every team member had a good grasp of web development 
