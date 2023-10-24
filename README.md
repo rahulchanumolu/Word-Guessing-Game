@@ -25,31 +25,31 @@ Setup and Deployment Instructions:
    game. Along the way, we faced numerous challenges, overcame obstacles, and learned valuable 
    lessons.
    
-* **Week 1: Foundations** 
+* **Week 1 Foundations:** 
    During the first week, we focused on building a solid foundation. Recognizing our limited 
    experience in website development, we dove into the basics of JavaScript, HTML, and CSS. This 
    week was crucial in ensuring that every team member had a good grasp of web development 
    fundamentals.
    
-* **Week 2: Setting the Blueprint** 
+* **Week 2 Setting the Blueprint:** 
    In Week 2, we started with a template from Coding Nepal and began enhancing its features. We 
    divided responsibilities among team members, with each member responsible for curating 
    questions, hints, and images for four different categories. We also started using GitHub, which 
    came with its challenges, especially with Git Bash. However, our determination and collaboration 
    helped us get comfortable with essential git commands. 
    
-* **Week 3: Building the Structure** 
+* **Week 3 Building the Structure:** 
    Week 3 marked the transition from planning to actual development. We designed the main 
    interface of our game, introducing two crucial HTML pages: home.html, displaying categories, 
    and movie.html, showing questions related to the chosen category. 
    
-* **Week 4: Adding Logic and Style** 
+* **Week 4 Adding Logic and Style:** 
    The core functionality of the game came into play during Week 4 through two JavaScript files: 
    word.js and script.js. The former contained questions, answers, and hints, while the latter handled 
    game logic, including score calculation and question randomization. We also improved the user 
    experience by integrating the Intro Js library and started refining the game's appearance with CSS. 
    
-* **Week 5: Testing and Deployment** 
+* **Week 5 Testing and Deployment:** 
    We initiated an extensive testing phase to identify and fix any bugs in our codebase. Issues were 
    found in both word.js and script.js and were promptly addressed. We implemented cookies to 
    ensure that Introjs loaded only for first-time players. After thorough testing, we were confident in 
