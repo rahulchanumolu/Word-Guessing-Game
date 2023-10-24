@@ -21,7 +21,7 @@ Setup and Deployment Instructions:
 
 ## Introduction 
    Creating a web-based game is a complex task that involves a variety of skills, from programming 
-   languages to teamwork . Our team embarked on a five-week journey to develop a word guessing 
+   languages to teamwork. Our team embarked on a five-week journey to develop a word-guessing 
    game. Along the way, we faced numerous challenges, overcame obstacles, and learned valuable 
    lessons. 
    **Week 1: Foundations** 
@@ -81,6 +81,6 @@ insights that will undoubtedly benefit us in future projects.
 
 
 # Acknowledgments:
-    * This project is an extension of the Coding Nepal Web Word Guessing Game. The team improved and modified the original code to display images and tailored the game to meet specific project requirements.
-    * This project was undertaken as part of the coursework for "Foundations of Software Engineering" under the guidance of Professor Paige Rodeghero.
+   * This project is an extension of the Coding Nepal Web Word Guessing Game. The team improved and modified the original code to display images and tailored the game to meet specific project requirements.
+   * This project was undertaken as part of the coursework for "Foundations of Software Engineering" under the guidance of Professor Paige Rodeghero.
 
